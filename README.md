@@ -10,6 +10,10 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 bash localhost-ssl-mac.sh
 ```
 
+Then you run `https-server` (note the "s").
+
+If you see the "command not found" message, then try running `source ~/.bash_profile` and then try `https-server` again.
+
 ## References
 
 <https://medium.com/@jonsamp/how-to-set-up-https-on-localhost-for-macos-b597bcf935ee>
