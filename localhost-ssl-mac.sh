@@ -16,7 +16,7 @@ npm install -g http-server || yarn add global http-server
 
 # create bash CLI command "https-server" in .bash_profile:
 # (it'll run the HTTPS server; --ssl or -s option makes it httpS instead of just http)
-echo " 
+echo "
 function https-server() {
   http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key
 }
