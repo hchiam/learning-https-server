@@ -23,6 +23,7 @@ function https-server() {
 " >> ~/.bash_profile
 source ~/.bash_profile
 
+echo ""
 echo "You're ready to use https on localhost"
 echo "Navigate to a project directory and run:"
 echo ""
