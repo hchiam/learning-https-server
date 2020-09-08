@@ -1,4 +1,4 @@
-# Learning quick setup of HTTPS server
+# Learning quick setup of an HTTPS server
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
