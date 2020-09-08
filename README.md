@@ -10,9 +10,17 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 bash localhost-ssl-mac.sh
 ```
 
-Then you run `https-server` (note the "s").
+Then you run `https-server` (note the "s") in the folder of your choice. (If you see the "command not found" message, then try running `source ~/.bash_profile` and then try `https-server` again.)
 
-If you see the "command not found" message, then try running `source ~/.bash_profile` and then try `https-server` again.
+For example:
+
+```bash
+cd example-folder
+https-server
+# then open https://localhost:8080
+```
+
+Since you created the self-signed certificate, you should be able to trust your own localhost site.
 
 ## References
 
